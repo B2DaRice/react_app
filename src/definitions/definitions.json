@@ -1,0 +1,5 @@
+{
+  "loadErrorType"   : "POSTS_ERROR",
+  "loadSuccessType" : "POSTS_FETCH_DATA_SUCCESS",
+  "isLoadingType"   : "POSTS_LOADING"
+}
