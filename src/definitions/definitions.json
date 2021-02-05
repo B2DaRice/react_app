@@ -1,5 +1,57 @@
 {
   "loadErrorType"   : "POSTS_ERROR",
   "loadSuccessType" : "POSTS_FETCH_DATA_SUCCESS",
-  "isLoadingType"   : "POSTS_LOADING"
+  "isLoadingType"   : "POSTS_LOADING",
+  "users" : [
+    {
+      "userId"   : 1,
+      "userName" : "Bruce Wayne",
+      "profPic"  : "https://media.vanityfair.com/photos/5ef25d9d184617200a49bac5/4:3/w_2999,h_2249,c_limit/M8DBATM_WB002.jpg"
+    },
+    {
+      "userId"   : 2,
+      "userName" : "Selena Kyle",
+      "profPic"  : "https://pyxis.nymag.com/v1/imgs/634/32b/1bba025d6df40bb4b256bfbaa6fa4e926e-23-michelle-pfeiffer-catwoman.rsquare.w700.jpg"
+    },
+    {
+      "userId"   : 3,
+      "userName" : "Han J Solo",
+      "profPic"  : "https://sm.ign.com/ign_za/gallery/t/the-7-weir/the-7-weirdest-things-han-solo-has-ever-done_6pzh.jpg"
+    },
+    {
+      "userId"   : 4,
+      "userName" : "Commander Shepard",
+      "profPic"  : "https://cdn.escapistmagazine.com/media/global/images/library/deriv/871/871656.png"
+    },
+    {
+      "userId"   : 5,
+      "userName" : "Empty Vessel",
+      "profPic"  : "https://uploads.gamedev.net/monthly_2018_11/1726050869_HollowKnight.png.3f1a43792b18755f1f21520a064c6d44.png"
+    },
+    {
+      "userId"   : 6,
+      "userName" : "Lara Croft",
+      "profPic"  : "https://i.guim.co.uk/img/media/0c3a2da7f4258079ecd6d29240b85deba8fe5913/410_4_2023_1214/master/2023.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=221c208272beb5ed37cdb473f442612a"
+    },
+    {
+      "userId"   : 7,
+      "userName" : "Bowser",
+      "profPic"  : "https://pbs.twimg.com/media/Byqe33rIcAAmqkO.png"
+    },
+    {
+      "userId"   : 8,
+      "userName" : "Optimus Prime",
+      "profPic"  : "https://www.thechosenprime.com/thumbnail.asp?file=assets/images/other/revoltech/optimus%20prime%202.0/ray-g1-optimus-prime-2.0-01.jpg&maxx=600&maxy=0"
+    },
+    {
+      "userId"   : 9,
+      "userName" : "Raphael Turtle",
+      "profPic"  : "https://bbts1.azureedge.net/images/p/full/2017/07/1ade153a-8e3a-4294-b889-87bb07dc7cac.jpg"
+    },
+    {
+      "userId"   : 10,
+      "userName" : "Bruce Banner",
+      "profPic"  : "https://www.screengeek.net/wp-content/uploads/2020/04/avengers-endgame-hulk.jpg"
+    }
+  ]
 }

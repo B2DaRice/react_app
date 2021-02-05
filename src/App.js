@@ -1,26 +1,24 @@
 import React from 'react';
-// import logo from './logo.svg';
-import Home from './home/home';
+import Home from './components/home/home';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+
+// I attempted to add a header with a small dropdown menu but ran out of time
 function App() {
   return (
     <div className="App">
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */}
+      <header className="appHeader">
+        {/* <div class="dropdown">
+          <button class="btn bmd-btn-icon dropdown-toggle" type="button" id="ex1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="material-icons">more_vert</i>
+          </button>
+          <div class="dropdown-menu dropdown-menu-left" aria-labelledby="ex1">
+            <button class="dropdown-item" type="button">Change User</button>
+            <button class="dropdown-item" type="button">Contact Us</button>
+          </div>
+        </div> */}
+      </header>
       <Home />
     </div>
   );
