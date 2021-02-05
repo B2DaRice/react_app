@@ -24,3 +24,10 @@ export function posts(state = [], action) {
       return state;
   }
 }
+
+const allReducers = { 
+  loadError,
+  currLoading,
+  posts 
+};
+export { allReducers };
